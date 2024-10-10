@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.logo img{
+    width: 103px;
+    height:31px ;
+    margin-top: 15px;
+}
+.logo span{
+    margin-top: 10px;
+    font-size: 14px;
+}
+.card{
+    width: 350px; ;
+    height: 240px; ;
+    padding: 20px 26px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    margin: 20px auto 25px auto;
+
+}
+.card h1{
+    font-weight: 400;
+    font-size: 28px;
+}
+.card label{
+    font-size: 13px;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-weight: 700;
+}
+.card input{
+    width: 300px;
+    height: 25px;
+    padding: 3px 7px;
+    margin-top: 3px;
+    background-color: #dcdada13;
+    border: 1px solid #a6a6a6;
+    border-radius: 3px;
+    outline: 3px solid rgba(180, 249, 249, 0.922);
+      
+}
+.card button{
+    width: 300px;
+    height: 31px;
+    border-radius: 5px;
+    margin-top: 15px;
+    background-color: #faea04;
+    border: 1px solid #a6a6a6;
+    border-top-color: #949494;
+    border-bottom: 3px;
+}
+.card p, .card p a{
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 10px;
+    font-weight: 500;
+    text-decoration: none;
+
+}
+/* a{
+    text-decoration: none;
+    color: #0066c0;
+} */
+.card a{
+    margin-top: 5px;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.card a:hover{
+    text-decoration: underline;
+    color: rgb(250, 160, 4);
+}
+.icon::before{
+    display: inline-block;
+    content: "";
+    border-top: 4px solid transparent;
+    border-left: 4px solid #949494;
+    border-bottom: 4px solid transparent;
+    margin-right: 10px;
+
+}
+button.bottombtn{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    width: 296px;
+    height: 31px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: white;
+    /* margin-left: 38%; */
+    margin-bottom: 10px;
+
+}
+div button.bottombtn:hover{
+    background-color: whitesmoke;
+}
+footer{
+    background-color: whitesmoke;
+}
+.footeritem a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 20px;
+}
+.footeritem {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.footerbottomitm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 8px;
+}
